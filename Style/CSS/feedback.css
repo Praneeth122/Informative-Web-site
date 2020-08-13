@@ -1,0 +1,105 @@
+#hi
+{
+	background-image: url('../Images/row_1-col_1.jpg');
+background-repeat: norepeat;
+background-attachment: fixed;
+  background-size: cover;
+  background-position : center;
+  margin :0;
+  padding :0;
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.content-title 
+{margin-top: 100px;
+color: #fff;
+text-transform : uppercase;
+transition : all 4s ease-in-out;
+}
+.content-title h1
+{font-size: 32px;
+line height : 10px;
+}
+.content-title h2
+{font-size: 16px;
+}
+nav{
+  background: #2c3e50;
+  height: 50px;
+  width: 100%;
+}
+label.logo{
+  color: #f2f2f2;
+  font-size: 33px;
+  line-height: 80px;
+  padding: 0 140px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  float : left;
+}
+/*nav ul{
+  float: right;
+  margin-right: 60px;
+  position : relative;
+  right : 62%;
+  bottom : 15px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 2px auto;
+}*/
+nav ul li a{
+  color: #f2f2f2;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  font-family: 'Poppins', sans-serif;
+}
+a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.logo{
+	position : relative;
+right : 7%;
+bottom : 15px;}
+form
+{margin-top: 50px;
+transition : all 4s ease-in-out;}
+.content-control, .submit
+{width : 600px;
+background : transparent;
+border :none;
+outline: none;
+border-bottom : 1px solid gray;
+color : #fff;
+font-size :18px;
+margin-bottom:16px;}
+
+input
+{height: 45px;}
+.submit
+{background: #fcba03;
+border-color :transparent;
+color : #fff;
+font-size :20px;
+font-weight : bold;
+letter-spacing : 2px;
+height :50px;
+margin-top : 20px;
+}
+.submit:hover{background: #ff8000;
+cursor: pointer;}
+
+#hey
+{border : 2px solid #ff8000;}
+::placeholder
+{color: #ff8000;}
