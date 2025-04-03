@@ -14,7 +14,7 @@ include("header.php");
 <div class="row main-row">
     <div class="8u">
         <section class="left-content">
-            <h2><?php echo stripslashes($pageDetails["page_title"]); ?></h2>
+            <h2><?php echo stripslashes($pageDetails["page_select"]); ?></h2>
             <?php echo stripslashes($pageDetails["page_desc"]); ?>
         </section>
     
